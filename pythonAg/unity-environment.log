@@ -1,0 +1,29 @@
+03.07.2018 18:44:26
+ 
+Exception
+NullReferenceException: Object reference not set to an instance of an object
+AgentWorker.OnTriggerEnter (UnityEngine.Collider col) (at <196c52497eac4a13a4e8f9c6890279f5>:0)
+
+Exception
+NullReferenceException: Object reference not set to an instance of an object
+AgentWorker.OnTriggerEnter (UnityEngine.Collider col) (at <196c52497eac4a13a4e8f9c6890279f5>:0)
+
+Exception
+NullReferenceException: Object reference not set to an instance of an object
+AgentWorker.OnTriggerEnter (UnityEngine.Collider col) (at <196c52497eac4a13a4e8f9c6890279f5>:0)
+
+Exception
+NullReferenceException: Object reference not set to an instance of an object
+AgentWorker.OnTriggerEnter (UnityEngine.Collider col) (at <196c52497eac4a13a4e8f9c6890279f5>:0)
+
+Exception
+NullReferenceException: Object reference not set to an instance of an object
+AgentWorker.OnTriggerEnter (UnityEngine.Collider col) (at <196c52497eac4a13a4e8f9c6890279f5>:0)
+
+Log
+yellowTeamWin
+
+Exception
+NullReferenceException: Object reference not set to an instance of an object
+AgentWorker.OnTriggerEnter (UnityEngine.Collider col) (at <196c52497eac4a13a4e8f9c6890279f5>:0)
+

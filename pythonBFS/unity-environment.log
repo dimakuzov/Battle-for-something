@@ -1,0 +1,409 @@
+03.07.2018 18:39:09
+ 
+Exception
+SocketException: Удаленный хост принудительно разорвал существующее подключение.
+
+System.Net.Sockets.Socket.Send (System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags) (at <a3bc56cd038446b2ba8027b187001bf8>:0)
+System.Net.Sockets.Socket.Send (System.Byte[] buffer) (at <a3bc56cd038446b2ba8027b187001bf8>:0)
+ExternalCommunicator.GiveBrainInfo (Brain brain, System.Collections.Generic.Dictionary`2[TKey,TValue] agentInfo) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+CoreBrainExternal.DecideAction (System.Collections.Generic.Dictionary`2[TKey,TValue] agentInfo) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Brain.DecideAction () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
+Exception
+ArgumentException: An item with the same key has already been added.
+System.ThrowHelper.ThrowArgumentException (System.ExceptionResource resource) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Insert (TKey key, TValue value, System.Boolean add) (at <cfc149f8218b496788d8493c87de777a>:0)
+System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) (at <cfc149f8218b496788d8493c87de777a>:0)
+Brain.SendState (Agent agent, AgentInfo info) (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfoToBrain () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Agent.SendInfo () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.EnvironmentStep () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+Academy.FixedUpdate () (at <e5fff7c28ba444bcbd185f5d6e1bcef6>:0)
+
